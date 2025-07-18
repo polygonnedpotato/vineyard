@@ -8,7 +8,7 @@ readme = "README.md"
 
 [dependencies]
 curl = "0.4.48"
-daemonize = "0.5.0"
+#daemonize = "0.5.0"
 toml = "0.9.2"
 yaml-rust = "0.4.5"
 zbus = "5.9.0"
