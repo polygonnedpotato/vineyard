@@ -7,8 +7,9 @@ description = "Vineyard is an extensive manager and assistant for running Window
 readme = "README.md"
 
 [dependencies]
-curl = "0.4.48"
-#daemonize = "0.5.0"
+curl = "0.4.48"#daemonize = "0.5.0"
 toml = "0.9.2"
 yaml-rust = "0.4.5"
 zbus = "5.9.0"
+
+mlua = { version = "0.11.1", features = ["lua54", "vendored"] }
